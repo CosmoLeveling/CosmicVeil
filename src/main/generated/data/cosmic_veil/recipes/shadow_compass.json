@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "W": {
+      "item": "cosmic_veil:weeper_pearl"
+    },
+    "i": {
+      "item": "cosmic_veil:shadrock_nugget"
+    }
+  },
+  "pattern": [
+    " W ",
+    "iCi",
+    " i "
+  ],
+  "result": {
+    "item": "cosmic_veil:shadow_compass"
+  },
+  "show_notification": true
+}

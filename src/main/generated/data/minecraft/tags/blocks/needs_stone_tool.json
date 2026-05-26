@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "cosmic_veil:shadow_transporter",
+    "cosmic_veil:shadow_portal",
+    "cosmic_veil:dark_shadow_rock",
+    "cosmic_veil:dark_shadow_rock_stairs",
+    "cosmic_veil:dark_shadow_rock_slab",
+    "cosmic_veil:dark_shadow_rock_wall",
+    "cosmic_veil:dark_shadow_rock_button",
+    "cosmic_veil:dark_shadow_rock_pressure_plate",
+    "cosmic_veil:light_shadow_rock",
+    "cosmic_veil:light_shadow_rock_stairs",
+    "cosmic_veil:light_shadow_rock_slab",
+    "cosmic_veil:light_shadow_rock_wall",
+    "cosmic_veil:light_shadow_rock_button",
+    "cosmic_veil:light_shadow_rock_pressure_plate",
+    "cosmic_veil:dark_pillar",
+    "cosmic_veil:shadow_core",
+    "cosmic_veil:red_shadow_rock",
+    "cosmic_veil:red_shadow_rock_stairs",
+    "cosmic_veil:red_shadow_rock_slab",
+    "cosmic_veil:red_shadow_rock_wall",
+    "cosmic_veil:red_shadow_rock_button",
+    "cosmic_veil:red_shadow_rock_pressure_plate"
+  ]
+}

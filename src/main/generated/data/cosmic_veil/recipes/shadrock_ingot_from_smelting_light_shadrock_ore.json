@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "shadrock",
+  "ingredient": {
+    "item": "cosmic_veil:light_shadrock_ore"
+  },
+  "result": "cosmic_veil:shadrock_ingot"
+}

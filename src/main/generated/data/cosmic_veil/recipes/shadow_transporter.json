@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "cosmic_veil:ashenite"
+    },
+    "I": {
+      "item": "cosmic_veil:shadrock_block"
+    },
+    "W": {
+      "item": "cosmic_veil:weeper_pearl"
+    },
+    "i": {
+      "item": "cosmic_veil:shadrock_nugget"
+    }
+  },
+  "pattern": [
+    "iWi",
+    "WDW",
+    "iIi"
+  ],
+  "result": {
+    "item": "cosmic_veil:shadow_transporter"
+  },
+  "show_notification": true
+}

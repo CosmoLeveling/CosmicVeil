@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cosmic_veil:ashenite"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "cosmic_veil:monarchs_sword"
+  },
+  "template": {
+    "item": "cosmic_veil:shadow_template"
+  }
+}

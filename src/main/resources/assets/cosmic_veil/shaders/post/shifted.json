@@ -1,0 +1,23 @@
+{
+  "targets": [
+    "swap",
+    "a"
+  ],
+  "passes": [
+    {
+      "name": "cosmic_veil:shifted",
+      "intarget": "minecraft:main",
+      "outtarget": "a"
+    },
+    {
+      "name": "cosmic_veil:sobel_fade",
+      "intarget": "a",
+      "outtarget": "swap"
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "cosmic_veil:light_shadow_rock"
+  },
+  "result": "cosmic_veil:light_shadow_rock_stairs"
+}

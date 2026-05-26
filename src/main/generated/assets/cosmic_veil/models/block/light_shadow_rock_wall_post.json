@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "cosmic_veil:block/light_shadow_rock"
+  }
+}

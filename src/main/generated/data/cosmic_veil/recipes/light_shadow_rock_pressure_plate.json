@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "cosmic_veil:light_shadow_rock"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "cosmic_veil:light_shadow_rock_pressure_plate"
+  },
+  "show_notification": true
+}

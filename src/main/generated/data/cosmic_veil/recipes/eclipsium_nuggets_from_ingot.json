@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "eclipsium_ingot",
+  "ingredients": [
+    {
+      "item": "cosmic_veil:eclipsium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cosmic_veil:eclipsium_nugget"
+  }
+}

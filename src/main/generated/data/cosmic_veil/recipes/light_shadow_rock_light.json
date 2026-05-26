@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "cosmic_veil:light_shadow_rock"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DGD",
+    "DDD"
+  ],
+  "result": {
+    "count": 16,
+    "item": "cosmic_veil:light_shadow_rock_light"
+  },
+  "show_notification": true
+}

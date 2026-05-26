@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "eclipsium",
+  "ingredient": {
+    "item": "cosmic_veil:dark_eclipsium_ore"
+  },
+  "result": "cosmic_veil:eclipsium_ingot"
+}

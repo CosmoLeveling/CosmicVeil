@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "cosmic_veil:block/red_shadow_rock"
+  }
+}

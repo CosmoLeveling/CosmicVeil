@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "cosmic_veil:block/light_shadow_rock"
+  }
+}

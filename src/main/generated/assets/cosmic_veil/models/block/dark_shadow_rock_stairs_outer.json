@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "cosmic_veil:block/dark_shadow_rock",
+    "side": "cosmic_veil:block/dark_shadow_rock",
+    "top": "cosmic_veil:block/dark_shadow_rock"
+  }
+}

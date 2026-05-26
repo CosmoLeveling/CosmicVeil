@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "shadrock_ingot",
+  "ingredients": [
+    {
+      "item": "cosmic_veil:shadrock_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cosmic_veil:shadrock_nugget"
+  }
+}

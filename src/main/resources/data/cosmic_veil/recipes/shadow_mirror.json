@@ -1,0 +1,25 @@
+{
+  "type": "cosmic_veil:soul_crafting",
+  "ingredients": [
+    {
+      "item": "cosmic_veil:weeper_pearl"
+    },{
+      "item": "cosmic_veil:shadrock_nugget"
+    },{
+      "item": "cosmic_veil:shadow_trap"
+    },{
+      "item": "cosmic_veil:ashenite"
+    },{
+      "item": "cosmic_veil:weeper_pearl"
+    },{
+      "item": "cosmic_veil:ashenite"
+    },{
+      "item": "cosmic_veil:shadow_trap"
+    },{
+      "item": "cosmic_veil:shadrock_nugget"
+    }
+  ],
+  "output": {
+    "item": "cosmic_veil:shadow_mirror"
+  }
+}

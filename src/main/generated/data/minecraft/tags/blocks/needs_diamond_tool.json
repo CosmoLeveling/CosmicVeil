@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "cosmic_veil:red_shadrock_ore",
+    "cosmic_veil:red_eclipsium_ore",
+    "cosmic_veil:red_ashenite_ore",
+    "cosmic_veil:light_shadrock_ore",
+    "cosmic_veil:light_eclipsium_ore",
+    "cosmic_veil:light_ashenite_ore",
+    "cosmic_veil:dark_shadrock_ore",
+    "cosmic_veil:dark_eclipsium_ore",
+    "cosmic_veil:dark_ashenite_ore",
+    "cosmic_veil:shadrock_block",
+    "cosmic_veil:eclipsium_block",
+    "cosmic_veil:ashenite_block"
+  ]
+}

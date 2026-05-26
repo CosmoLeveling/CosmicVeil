@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "cosmic_veil:shadrock_block"
+    },
+    "W": {
+      "item": "cosmic_veil:weeper_pearl"
+    },
+    "d": {
+      "item": "cosmic_veil:ashenite"
+    },
+    "g": {
+      "item": "minecraft:gunpowder"
+    },
+    "i": {
+      "item": "cosmic_veil:shadrock_ingot"
+    },
+    "n": {
+      "item": "cosmic_veil:shadrock_nugget"
+    }
+  },
+  "pattern": [
+    " g ",
+    "dIi",
+    "Wn "
+  ],
+  "result": {
+    "item": "cosmic_veil:marksmen_veil"
+  },
+  "show_notification": true
+}

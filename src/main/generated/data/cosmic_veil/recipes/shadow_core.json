@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cosmic_veil:ashenite"
+    },
+    "D": {
+      "item": "cosmic_veil:dark_shadow_rock"
+    },
+    "S": {
+      "item": "cosmic_veil:shadrock_nugget"
+    },
+    "W": {
+      "item": "cosmic_veil:weeper_pearl"
+    }
+  },
+  "pattern": [
+    "S S",
+    "AWA",
+    "DAD"
+  ],
+  "result": {
+    "item": "cosmic_veil:shadow_core"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "cosmic_veil",
+	"version": "${version}",
+	"name": "Cosmic Veil",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Cosmo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cosmic_veil/logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cosmo.CosmicVeil"
+		],
+		"fabric-datagen": [
+			"com.cosmo.CosmicVeilDataGenerator"
+        ],
+      "client": ["com.cosmo.CosmicVeilClient"],
+      "cardinal-components": [
+        "com.cosmo.CosmicVeilComponents"
+      ]
+	},
+  "custom": {
+    "cardinal-components": [
+      "cosmic_veil:shifted",
+      "cosmic_veil:compass",
+      "cosmic_veil:monarch_sword"
+    ]
+  },
+	"mixins": [
+		"cosmic_veil.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "cosmic_veil:ashenite"
+    },
+    "W": {
+      "item": "cosmic_veil:weeper_pearl"
+    },
+    "i": {
+      "item": "cosmic_veil:shadrock_nugget"
+    }
+  },
+  "pattern": [
+    "iDi",
+    "DWD",
+    "iDi"
+  ],
+  "result": {
+    "count": 8,
+    "item": "cosmic_veil:shadow_trap"
+  },
+  "show_notification": true
+}

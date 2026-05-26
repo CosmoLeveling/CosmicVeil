@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "cosmic_veil:shadow_trap"
+    },
+    "W": {
+      "item": "cosmic_veil:weeper_pearl"
+    },
+    "d": {
+      "item": "cosmic_veil:ashenite"
+    },
+    "i": {
+      "item": "cosmic_veil:shadrock_nugget"
+    },
+    "s": {
+      "item": "minecraft:shield"
+    }
+  },
+  "pattern": [
+    "iSi",
+    "dsd",
+    " W "
+  ],
+  "result": {
+    "item": "cosmic_veil:shadow_shield"
+  },
+  "show_notification": true
+}

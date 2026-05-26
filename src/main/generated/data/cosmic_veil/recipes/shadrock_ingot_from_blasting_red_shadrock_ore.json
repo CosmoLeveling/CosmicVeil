@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "shadrock",
+  "ingredient": {
+    "item": "cosmic_veil:red_shadrock_ore"
+  },
+  "result": "cosmic_veil:shadrock_ingot"
+}

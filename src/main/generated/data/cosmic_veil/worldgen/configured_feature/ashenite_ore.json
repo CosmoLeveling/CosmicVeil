@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 5,
+    "targets": [
+      {
+        "state": {
+          "Name": "cosmic_veil:dark_ashenite_ore"
+        },
+        "target": {
+          "block": "cosmic_veil:dark_shadow_rock",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "cosmic_veil:light_ashenite_ore"
+        },
+        "target": {
+          "block": "cosmic_veil:light_shadow_rock",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "cosmic_veil:red_ashenite_ore"
+        },
+        "target": {
+          "block": "cosmic_veil:red_shadow_rock",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "cosmic_veil:shadow_realm_type",
+  "generator": {
+    "type": "cosmic_veil:shadow_chunkgen",
+    "custom_block": "minecraft:dirt",
+    "sea_level": 0,
+    "world_height": 384,
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "cosmic_veil:shadow_plains"
+    }
+  }
+}

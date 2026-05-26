@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cosmic_veil:ashenite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cosmic_veil:ashenite"
+  }
+}

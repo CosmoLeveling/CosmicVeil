@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "cosmic_veil:dark_shadow_rock"
+    }
+  ],
+  "result": {
+    "item": "cosmic_veil:dark_shadow_rock_button"
+  }
+}

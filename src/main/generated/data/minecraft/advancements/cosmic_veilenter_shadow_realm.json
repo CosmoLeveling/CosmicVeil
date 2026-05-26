@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "enter_shadow_realm": {
+      "conditions": {
+        "to": "cosmic_veil:shadow_realm"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Welcome to the shadow monarchs domain"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cosmic_veil:shadow_mirror"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Enter the shadow realm"
+    }
+  },
+  "requirements": [
+    [
+      "enter_shadow_realm"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

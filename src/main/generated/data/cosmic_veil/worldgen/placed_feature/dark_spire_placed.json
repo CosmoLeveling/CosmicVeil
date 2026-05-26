@@ -1,0 +1,35 @@
+{
+  "feature": "cosmic_veil:dark_spire",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 100
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 90
+        },
+        "min_inclusive": {
+          "absolute": 85
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

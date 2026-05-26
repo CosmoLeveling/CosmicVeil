@@ -1,0 +1,6 @@
+// 1.20.1	2026-05-25T13:51:56.432028914	Cosmic Veil/Tags for minecraft:block
+ea56630c7af62b7641f914e7684993c5b634ccc7 data/minecraft/tags/blocks/needs_diamond_tool.json
+c72c84c4171f089f8e17685168c6d9e86947e1c3 data/minecraft/tags/blocks/needs_stone_tool.json
+9088b79cf2029b41d816deca740e58c105e6cd52 data/minecraft/tags/blocks/mineable/pickaxe.json
+99a6554ac10321a8fd41981be2d62776bc1d6854 data/minecraft/tags/blocks/animals_spawnable_on.json
+588fcaca9704b196e8261fa435b649788bbc93e0 data/minecraft/tags/blocks/walls.json

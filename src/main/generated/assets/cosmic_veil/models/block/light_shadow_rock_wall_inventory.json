@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "cosmic_veil:block/light_shadow_rock"
+  }
+}

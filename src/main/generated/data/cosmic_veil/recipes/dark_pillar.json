@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "cosmic_veil:dark_shadow_rock"
+    },
+    "L": {
+      "item": "cosmic_veil:light_shadow_rock"
+    },
+    "S": {
+      "item": "cosmic_veil:shadrock_nugget"
+    },
+    "l": {
+      "item": "cosmic_veil:light_shadow_rock_slab"
+    }
+  },
+  "pattern": [
+    "D D",
+    "SLS",
+    "lll"
+  ],
+  "result": {
+    "item": "cosmic_veil:dark_pillar"
+  },
+  "show_notification": true
+}

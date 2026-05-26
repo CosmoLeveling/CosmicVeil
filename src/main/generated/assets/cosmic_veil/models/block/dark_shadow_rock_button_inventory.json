@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "cosmic_veil:block/dark_shadow_rock"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_shadow_rock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cosmic_veil:red_shadow_rock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cosmic_veil:red_shadow_rock_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_red_shadow_rock",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cosmic_veil:red_shadow_rock_wall"
+    ]
+  },
+  "sends_telemetry_event": false
+}

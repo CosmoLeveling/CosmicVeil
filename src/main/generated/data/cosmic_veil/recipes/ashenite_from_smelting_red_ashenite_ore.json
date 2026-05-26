@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "ashenite",
+  "ingredient": {
+    "item": "cosmic_veil:red_ashenite_ore"
+  },
+  "result": "cosmic_veil:ashenite"
+}

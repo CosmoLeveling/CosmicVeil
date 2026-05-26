@@ -1,0 +1,33 @@
+{
+  "carvers": {},
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 1179674,
+    "foliage_color": 3805224,
+    "grass_color": 3805224,
+    "ambient_sound": "cosmic_veil:shadow_realm_ambient_loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "cosmic_veil:shadow_realm_ambient",
+      "tick_delay": 600
+    },
+    "sky_color": 3197208,
+    "water_color": 655378,
+    "water_fog_color": 1179674
+  },
+  "features": [["cosmic_veil:shadrock_ore_placed"],["cosmic_veil:eclipsium_ore_placed"],["cosmic_veil:ashenite_ore_placed"],["cosmic_veil:shadow_portal_placed"],["cosmic_veil:shadow_monarchs_treasure_placed"],["cosmic_veil:dark_pillar_placed"],["cosmic_veil:dark_spire_placed"]],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.7
+}

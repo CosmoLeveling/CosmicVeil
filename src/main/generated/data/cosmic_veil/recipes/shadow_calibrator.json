@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "cosmic_veil:weeper_pearl"
+    },
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " sa",
+    " Ws",
+    "s  "
+  ],
+  "result": {
+    "item": "cosmic_veil:shadow_calibrator"
+  },
+  "show_notification": true
+}

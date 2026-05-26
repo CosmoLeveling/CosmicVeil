@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cosmic_veil:block/dark_shadow_rock"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "shadow_realm_ambient": {
+    "subtitle": "sound.cosmic_veil.shadow_realm_ambient",
+    "sounds": [
+      "cosmic_veil:shadow_realm_ambient"
+    ]
+  },"shadow_realm_ambient_loop": {
+  "subtitle": "sound.cosmic_veil.shadow_realm_ambient_loop",
+  "sounds": [
+    "cosmic_veil:shadow_realm_ambient_loop"
+  ]
+}
+}

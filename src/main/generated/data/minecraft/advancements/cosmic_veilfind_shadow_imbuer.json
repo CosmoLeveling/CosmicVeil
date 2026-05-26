@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:cosmic_veilenter_shadow_realm",
+  "criteria": {
+    "find_shadow_imbuer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cosmic_veil:shadow_imbuer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Use it see what happens"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "cosmic_veil:shadow_mirror"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Imbue Darkness"
+    }
+  },
+  "requirements": [
+    [
+      "find_shadow_imbuer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

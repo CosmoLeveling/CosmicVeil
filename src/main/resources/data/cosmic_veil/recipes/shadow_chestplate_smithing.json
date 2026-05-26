@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cosmic_veil:ashenite"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "result": {
+    "item": "cosmic_veil:shadow_chestplate"
+  },
+  "template": {
+    "item": "cosmic_veil:shadow_template"
+  }
+}

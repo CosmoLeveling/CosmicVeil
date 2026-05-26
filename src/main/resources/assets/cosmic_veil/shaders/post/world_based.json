@@ -1,0 +1,17 @@
+{
+  "targets": [
+    "a"
+  ],
+  "passes": [
+    {
+      "name": "cosmic_veil:world_based",
+      "intarget": "minecraft:main",
+      "outtarget": "a"
+    },
+    {
+      "name": "blit",
+      "intarget": "a",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}
