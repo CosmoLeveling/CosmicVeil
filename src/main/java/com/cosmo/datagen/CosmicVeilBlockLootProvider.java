@@ -26,6 +26,10 @@ public class CosmicVeilBlockLootProvider extends FabricBlockLootTableProvider {
         addDrop(BlockInit.DarkShadowRockSlab);
         addDrop(BlockInit.DarkShadowRockPressurePlate);
 
+        addDrop(BlockInit.SolarRock);
+        addDrop(BlockInit.LightSolarRock);
+        addDrop(BlockInit.DarkSolarRock);
+
         addDrop(BlockInit.DarkPedestal);
         addDrop(BlockInit.ShadowCore);
         addDrop(BlockInit.RedShadowRockLight);

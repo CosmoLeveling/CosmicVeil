@@ -18,6 +18,7 @@ import java.util.List;
 public class CosmicVeilConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?,?>> DARK_PILLAR_KEY = registerKey("dark_pillar");
     public static final RegistryKey<ConfiguredFeature<?,?>> DARK_SPIRE_KEY = registerKey("dark_spire");
+    public static final RegistryKey<ConfiguredFeature<?,?>> SOLAR_SPIRE_KEY = registerKey("solar_spire");
     public static final RegistryKey<ConfiguredFeature<?,?>> SHADOW_MONARCHS_TREASURE_KEY = registerKey("shadow_monarchs_treasure");
     public static final RegistryKey<ConfiguredFeature<?,?>> SHADOW_PORTAL_KEY = registerKey("shadow_portal");
     public static final RegistryKey<ConfiguredFeature<?,?>> SHADROCK_ORE_KEY = registerKey("shadrock_ore");
@@ -27,6 +28,7 @@ public class CosmicVeilConfiguredFeatures {
     public static void bootstrap(Registerable<ConfiguredFeature<?,?>> context) {
         register(context, DARK_PILLAR_KEY, CosmicVeil.DarkPillar,FeatureConfig.DEFAULT);
         register(context, DARK_SPIRE_KEY, CosmicVeil.DarkSpire,FeatureConfig.DEFAULT);
+        register(context, SOLAR_SPIRE_KEY, CosmicVeil.SolarSpire,FeatureConfig.DEFAULT);
         register(context, SHADOW_MONARCHS_TREASURE_KEY, CosmicVeil.ShadowMonarchsTreasure,FeatureConfig.DEFAULT);
         register(context, SHADOW_PORTAL_KEY, CosmicVeil.ShadowPortal,FeatureConfig.DEFAULT);
 

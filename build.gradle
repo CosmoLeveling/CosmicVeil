@@ -84,7 +84,15 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
-
+configurations.all {
+    resolutionStrategy {
+        force 'org.lwjgl:lwjgl:3.3.1'
+        force 'org.lwjgl:lwjgl-glfw:3.3.1'
+        force 'org.lwjgl:lwjgl-opengl:3.3.1'
+        force 'org.lwjgl:lwjgl-openal:3.3.1'
+        force 'org.lwjgl:lwjgl-stb:3.3.1'
+    }
+}
 processResources {
 	def version = project.version
 	inputs.property "version", version

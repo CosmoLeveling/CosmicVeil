@@ -214,7 +214,7 @@ public class ShiftedComponent implements AutoSyncedComponent, ServerTickingCompo
     }
 
     public float getShiftedTimer() {
-        return (float) shiftedTimer / 1000f;
+        return (float) shiftedTimer / 5000f;
     }
 
     public void setShadowImbued() {

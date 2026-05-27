@@ -28,6 +28,12 @@ public class BlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.SEA_LANTERN)));
     public static final Block DarkShadowRock = registerBlock("dark_shadow_rock",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(((state, world, pos, type) -> type == EntityInit.WEEPER))));
+    public static final Block LightSolarRock = registerBlock("light_solar_rock",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(((state, world, pos, type) -> type == EntityInit.WEEPER))));
+    public static final Block SolarRock = registerBlock("solar_rock",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(((state, world, pos, type) -> type == EntityInit.WEEPER))));
+    public static final Block DarkSolarRock = registerBlock("dark_solar_rock",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(((state, world, pos, type) -> type == EntityInit.WEEPER))));
     public static final Block DarkShadowRockWall = registerBlock("dark_shadow_rock_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(((state, world, pos, type) -> type == EntityInit.WEEPER))));
     public static final Block DarkShadowRockStair = registerBlock("dark_shadow_rock_stairs",

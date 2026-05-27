@@ -4,10 +4,7 @@ import com.cosmo.entity.custom.WeeperEntity;
 import com.cosmo.init.*;
 import com.cosmo.util.DeathOverrideHandler;
 import com.cosmo.util.ShiftedComponent;
-import com.cosmo.world.feature.DarkPillarsFeature;
-import com.cosmo.world.feature.DarkSpireFeature;
-import com.cosmo.world.feature.ShadowMonarchsTreasureStructureFeature;
-import com.cosmo.world.feature.ShadowPortalStructureFeature;
+import com.cosmo.world.feature.*;
 import com.cosmo.world.gen.CosmicVeilEntityGeneration;
 import com.cosmo.world.gen.CosmicVeilWorldGen;
 import net.fabricmc.api.ModInitializer;
@@ -33,7 +30,9 @@ public class CosmicVeil implements ModInitializer {
 			Identifier.of(MOD_ID, "dark_pillar"), new DarkPillarsFeature());
     public static final Feature<DefaultFeatureConfig> DarkSpire = Registry.register(Registries.FEATURE,
             Identifier.of(MOD_ID, "dark_spire"), new DarkSpireFeature());
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static final Feature<DefaultFeatureConfig> SolarSpire = Registry.register(Registries.FEATURE,
+            Identifier.of(MOD_ID, "solar_spire"), new SolarSpireFeature());
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     public static final Feature<DefaultFeatureConfig> ShadowMonarchsTreasure = Registry.register(Registries.FEATURE,
             Identifier.of(MOD_ID,"shadow_monarchs_treasure"),new ShadowMonarchsTreasureStructureFeature());
     public static final Feature<DefaultFeatureConfig> ShadowPortal = Registry.register(Registries.FEATURE,

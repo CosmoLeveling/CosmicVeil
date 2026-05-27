@@ -20,6 +20,9 @@ public class CosmicVeilBlockTagProvider extends FabricTagProvider<Block> {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.ANIMALS_SPAWNABLE_ON)
                 .add(BlockInit.DarkShadowRock)
+                .add(BlockInit.LightSolarRock)
+                .add(BlockInit.SolarRock)
+                .add(BlockInit.DarkSolarRock)
                 .add(BlockInit.LightShadowRock)
                 .add(BlockInit.RedShadowRock);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)

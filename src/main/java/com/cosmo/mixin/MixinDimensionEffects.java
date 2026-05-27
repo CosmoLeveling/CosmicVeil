@@ -1,6 +1,7 @@
 package com.cosmo.mixin;
 
 import com.cosmo.world.dimension.ShadowRealmEffects;
+import com.cosmo.world.dimension.SolarRealmEffects;
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 import net.minecraft.client.render.DimensionEffects;
 import net.minecraft.util.Identifier;
@@ -19,6 +20,10 @@ public class MixinDimensionEffects {
         BY_IDENTIFIER.put(
                 new Identifier("cosmic_veil", "shadow_realm"),
                 new ShadowRealmEffects()
+        );
+        BY_IDENTIFIER.put(
+                new Identifier("cosmic_veil", "solar_realm"),
+                new SolarRealmEffects()
         );
     }
 

@@ -37,6 +37,10 @@ public class CosmicVeilModelProvider extends FabricModelProvider {
         DarkShadowRockPool.stairs(BlockInit.DarkShadowRockStair);
         DarkShadowRockPool.button(BlockInit.DarkShadowRockButton);
         DarkShadowRockPool.pressurePlate(BlockInit.DarkShadowRockPressurePlate);
+        BlockStateModelGenerator.BlockTexturePool LightSolarRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(BlockInit.LightSolarRock);
+        BlockStateModelGenerator.BlockTexturePool SolarRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(BlockInit.SolarRock);
+        BlockStateModelGenerator.BlockTexturePool DarkSolarRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(BlockInit.DarkSolarRock);
+
         blockStateModelGenerator.registerSimpleState(BlockInit.DarkPedestal);
         blockStateModelGenerator.registerSimpleState(BlockInit.ShadowCore);
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.RedShadrockOre);

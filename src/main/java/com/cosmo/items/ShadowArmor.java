@@ -27,7 +27,12 @@ public class ShadowArmor extends ArmorItem {
 
         // Get darkness factor
         float blockLight = world.getLightLevel(LightType.BLOCK, player.getBlockPos());
-        float darknessFactor = 1.0F - (blockLight / 15.0F);
+        boolean isNight = world.isNight();
+        float skyLight = world.getLightLevel(LightType.SKY, player.getBlockPos());
+        if (isNight){
+            skyLight=0;
+        }
+        float darknessFactor = 1.0F - (Math.max(blockLight,skyLight) / 15.0F);
 
         // Helmet: Night Vision in darkness
         if (this.getSlotType() == EquipmentSlot.HEAD && player.getEquippedStack(EquipmentSlot.HEAD).getItem() instanceof ShadowArmor && darknessFactor > 0.7F) {

@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "cosmic_veil:dark_shadow_rock",
+    "cosmic_veil:light_solar_rock",
+    "cosmic_veil:solar_rock",
+    "cosmic_veil:dark_solar_rock",
     "cosmic_veil:light_shadow_rock",
     "cosmic_veil:red_shadow_rock"
   ]

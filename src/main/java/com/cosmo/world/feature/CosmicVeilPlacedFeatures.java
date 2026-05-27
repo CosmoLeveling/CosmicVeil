@@ -17,6 +17,7 @@ import java.util.List;
 public class CosmicVeilPlacedFeatures {
     public static final RegistryKey<PlacedFeature> DARK_PILLAR_PLACED_KEY = registryKey("dark_pillar_placed");
     public static final RegistryKey<PlacedFeature> DARK_SPIRE_PLACED_KEY = registryKey("dark_spire_placed");
+    public static final RegistryKey<PlacedFeature> SOLAR_SPIRE_PLACED_KEY = registryKey("solar_spire_placed");
     public static final RegistryKey<PlacedFeature> SHADOW_MONARCHS_TREASURE_PLACED_KEY = registryKey("shadow_monarchs_treasure_placed");
     public static final RegistryKey<PlacedFeature> SHADOW_PORTAL_PLACED_KEY = registryKey("shadow_portal_placed");
     public static final RegistryKey<PlacedFeature> SHADROCK_ORE_PLACED_KEY = registryKey("shadrock_ore_placed");
@@ -45,6 +46,15 @@ public class CosmicVeilPlacedFeatures {
                         BiomePlacementModifier.of()
                 ));
         register(context, DARK_SPIRE_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(CosmicVeilConfiguredFeatures.DARK_SPIRE_KEY),
+                List.of(
+                        CountPlacementModifier.of(1), // spawn count per chunk
+                        SquarePlacementModifier.of(),
+                        RarityFilterPlacementModifier.of(100),
+                        PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(85), YOffset.fixed(90)),
+                        BiomePlacementModifier.of()
+                ));
+        register(context, SOLAR_SPIRE_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(CosmicVeilConfiguredFeatures.SOLAR_SPIRE_KEY),
                 List.of(
                         CountPlacementModifier.of(1), // spawn count per chunk
                         SquarePlacementModifier.of(),
