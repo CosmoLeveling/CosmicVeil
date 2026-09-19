@@ -3,6 +3,7 @@ package com.cosmo.init;
 import com.cosmo.CosmicVeil;
 import com.cosmo.items.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -51,6 +52,7 @@ public class ItemInit {
     public static final Item SHADOW_CHESTPLATE = registerArmor("shadow_chestplate", ArmorItem.Type.CHESTPLATE);
     public static final Item SHADOW_LEGGINGS = registerArmor("shadow_leggings", ArmorItem.Type.LEGGINGS);
     public static final Item SHADOW_BOOTS = registerArmor("shadow_boots", ArmorItem.Type.BOOTS);
+    public static final Item SOLAR_BLOSSOM = registerItem("solar_blossom",new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3F).alwaysEdible().snack().statusEffect(new StatusEffectInstance(StatusEffectInit.SolarFlight,200),1.0f).build())));
     private static Item registerArmor(String name, ArmorItem.Type type) {
         return Registry.register(Registries.ITEM, new Identifier("cosmic_veil", name),
                 new ShadowArmor(ModArmorMaterials.SHADOW_MONARCH, type, new FabricItemSettings().fireproof().maxCount(1)));

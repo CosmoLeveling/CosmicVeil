@@ -41,7 +41,7 @@ public class DimensionInit {
                 new DimensionType.MonsterSettings(false,false, UniformIntProvider.create(0,0),0)
         ));
         context.register(SOLAR_REALM_TYPE,new DimensionType(
-                OptionalLong.of(15000),
+                OptionalLong.of(6000),
                 false,
                 false,
                 false,
@@ -54,7 +54,7 @@ public class DimensionInit {
                 256,
                 BlockTags.INFINIBURN_OVERWORLD,
                 Identifier.of(CosmicVeil.MOD_ID,"solar_realm"),
-                0.0f,
+                15.0f,
                 new DimensionType.MonsterSettings(false,false, UniformIntProvider.create(0,0),0)
         ));
     }

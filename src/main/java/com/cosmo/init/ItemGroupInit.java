@@ -11,9 +11,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ItemGroupInit {
-    public static final ItemGroup TEST_GROUP = FabricItemGroup.builder()
+    public static final ItemGroup SHADOW_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ItemInit.ShadowMirror))
-            .displayName(Text.translatable("itemGroup.cosmic_veil.cosmic_veil_group"))
+            .displayName(Text.translatable("itemGroup.cosmic_veil.shadow_group"))
             .entries((context, entries) -> {
                 entries.add(BlockInit.DarkShadowRock);
                 entries.add(BlockInit.DarkShadowRockStair);
@@ -75,11 +75,36 @@ public class ItemGroupInit {
                 entries.add(BlockInit.DarkShadowRockLight);
                 entries.add(BlockInit.RedShadowRockLight);
                 entries.add(BlockInit.LightShadowRockLight);
-                if (FabricLoader.getInstance().isModLoaded(""))
-                entries.add(Registries.ITEM.get(Identifier.of("minecraft","string")));
             })
             .build();
+    public static final ItemGroup SOLAR_GROUP = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(BlockInit.SolarLight))
+            .displayName(Text.translatable("itemGroup.cosmic_veil.solar_group"))
+            .entries((context, entries) -> {
+                entries.add(BlockInit.DarkSolarRock);
+                entries.add(BlockInit.DarkSolarRockStair);
+                entries.add(BlockInit.DarkSolarRockWall);
+                entries.add(BlockInit.DarkSolarRockSlab);
+                entries.add(BlockInit.DarkSolarRockPressurePlate);
+                entries.add(BlockInit.DarkSolarRockButton);
+                entries.add(BlockInit.SolarRock);
+                entries.add(BlockInit.SolarRockStair);
+                entries.add(BlockInit.SolarRockWall);
+                entries.add(BlockInit.SolarRockSlab);
+                entries.add(BlockInit.SolarRockPressurePlate);
+                entries.add(BlockInit.SolarRockButton);
+                entries.add(BlockInit.LightSolarRock);
+                entries.add(BlockInit.LightSolarRockStair);
+                entries.add(BlockInit.LightSolarRockWall);
+                entries.add(BlockInit.LightSolarRockSlab);
+                entries.add(BlockInit.LightSolarRockPressurePlate);
+                entries.add(BlockInit.LightSolarRockButton);
+                entries.add(BlockInit.SolarLight);
+                    }
+             )
+            .build();
     public static void RegisterItemGroups(){
-        Registry.register(Registries.ITEM_GROUP,new Identifier(CosmicVeil.MOD_ID,"cosmic_veil_group"),TEST_GROUP);
+        Registry.register(Registries.ITEM_GROUP,new Identifier(CosmicVeil.MOD_ID,"shadow_veil_group"), SHADOW_GROUP);
+        Registry.register(Registries.ITEM_GROUP,new Identifier(CosmicVeil.MOD_ID,"solar_veil_group"), SOLAR_GROUP);
     }
 }

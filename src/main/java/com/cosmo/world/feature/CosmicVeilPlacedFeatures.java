@@ -10,6 +10,7 @@ import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.PlacedFeature;
 import net.minecraft.world.gen.feature.PlacedFeatures;
+import net.minecraft.world.gen.heightprovider.HeightProvider;
 import net.minecraft.world.gen.placementmodifier.*;
 
 import java.util.List;
@@ -20,6 +21,7 @@ public class CosmicVeilPlacedFeatures {
     public static final RegistryKey<PlacedFeature> SOLAR_SPIRE_PLACED_KEY = registryKey("solar_spire_placed");
     public static final RegistryKey<PlacedFeature> SHADOW_MONARCHS_TREASURE_PLACED_KEY = registryKey("shadow_monarchs_treasure_placed");
     public static final RegistryKey<PlacedFeature> SHADOW_PORTAL_PLACED_KEY = registryKey("shadow_portal_placed");
+    public static final RegistryKey<PlacedFeature> SOLAR_MONUMENT_PLACED_KEY = registryKey("solar_monument_placed");
     public static final RegistryKey<PlacedFeature> SHADROCK_ORE_PLACED_KEY = registryKey("shadrock_ore_placed");
     public static final RegistryKey<PlacedFeature> ASHENITE_ORE_PLACED_KEY = registryKey("ashenite_ore_placed");
     public static final RegistryKey<PlacedFeature> ECLIPSIUM_ORE_PLACED_KEY = registryKey("eclipsium_ore_placed");
@@ -58,9 +60,9 @@ public class CosmicVeilPlacedFeatures {
                 List.of(
                         CountPlacementModifier.of(1), // spawn count per chunk
                         SquarePlacementModifier.of(),
-                        RarityFilterPlacementModifier.of(100),
-                        PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(85), YOffset.fixed(90)),
+                        RarityFilterPlacementModifier.of(3),
+                        PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(85), YOffset.fixed(120)),
                         BiomePlacementModifier.of()
                 ));
         register(context, SHADOW_MONARCHS_TREASURE_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(CosmicVeilConfiguredFeatures.SHADOW_MONARCHS_TREASURE_KEY),
@@ -80,6 +82,9 @@ public class CosmicVeilPlacedFeatures {
                         PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-56), YOffset.fixed(90)),
                         BiomePlacementModifier.of()
+                ));
+        register(context, SOLAR_MONUMENT_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(CosmicVeilConfiguredFeatures.SOLAR_MONUMENT_KEY),
+                List.of(
                 ));
     }
 

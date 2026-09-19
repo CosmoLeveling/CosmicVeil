@@ -4,6 +4,7 @@ import com.cosmo.world.dimension.DimensionInit;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.util.math.BlockPos;
 
 public class DeathOverrideHandler {
     public static void register() {
@@ -16,6 +17,14 @@ public class DeathOverrideHandler {
                 ServerWorld world = player.getServer().getWorld(DimensionInit.SHADOW_REALM_LEVEL_KEY);// Or any dimension
                 if (world!=null) {
                     TeleportUtils.teleportPlayerToDimension(player, player.getServer(), world.getRegistryKey());
+                    return false; // Cancel death
+                }
+            }else if (player.getWorld().getRegistryKey().equals(DimensionInit.SOLAR_REALM_LEVEL_KEY)&&player.getServer()!=null) {
+                // Prevent death
+                player.setHealth(player.getMaxHealth());
+                ServerWorld world = player.getServer().getWorld(DimensionInit.SOLAR_REALM_LEVEL_KEY);// Or any dimension
+                if (world!=null) {
+                    TeleportUtils.teleportPlayerToDimension(player, player.getServer(),new BlockPos(15,104,15), world.getRegistryKey());
                     return false; // Cancel death
                 }
             }

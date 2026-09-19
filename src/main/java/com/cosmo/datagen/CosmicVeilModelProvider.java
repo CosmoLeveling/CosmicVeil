@@ -1,5 +1,6 @@
 package com.cosmo.datagen;
 
+import com.cosmo.CosmicVeil;
 import com.cosmo.init.BlockInit;
 import com.cosmo.init.ItemInit;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -38,9 +39,23 @@ public class CosmicVeilModelProvider extends FabricModelProvider {
         DarkShadowRockPool.button(BlockInit.DarkShadowRockButton);
         DarkShadowRockPool.pressurePlate(BlockInit.DarkShadowRockPressurePlate);
         BlockStateModelGenerator.BlockTexturePool LightSolarRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(BlockInit.LightSolarRock);
+        LightSolarRockPool.wall(BlockInit.LightSolarRockWall);
+        LightSolarRockPool.slab(BlockInit.LightSolarRockSlab);
+        LightSolarRockPool.stairs(BlockInit.LightSolarRockStair);
+        LightSolarRockPool.button(BlockInit.LightSolarRockButton);
+        LightSolarRockPool.pressurePlate(BlockInit.LightSolarRockPressurePlate);
         BlockStateModelGenerator.BlockTexturePool SolarRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(BlockInit.SolarRock);
+        SolarRockPool.wall(BlockInit.SolarRockWall);
+        SolarRockPool.slab(BlockInit.SolarRockSlab);
+        SolarRockPool.stairs(BlockInit.SolarRockStair);
+        SolarRockPool.button(BlockInit.SolarRockButton);
+        SolarRockPool.pressurePlate(BlockInit.SolarRockPressurePlate);
         BlockStateModelGenerator.BlockTexturePool DarkSolarRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(BlockInit.DarkSolarRock);
-
+        DarkSolarRockPool.wall(BlockInit.DarkSolarRockWall);
+        DarkSolarRockPool.slab(BlockInit.DarkSolarRockSlab);
+        DarkSolarRockPool.stairs(BlockInit.DarkSolarRockStair);
+        DarkSolarRockPool.button(BlockInit.DarkSolarRockButton);
+        DarkSolarRockPool.pressurePlate(BlockInit.DarkSolarRockPressurePlate);
         blockStateModelGenerator.registerSimpleState(BlockInit.DarkPedestal);
         blockStateModelGenerator.registerSimpleState(BlockInit.ShadowCore);
         blockStateModelGenerator.registerSimpleCubeAll(BlockInit.RedShadrockOre);
@@ -60,6 +75,7 @@ public class CosmicVeilModelProvider extends FabricModelProvider {
 	@Override
 	public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ItemInit.SHADOW_BOOTS,Models.GENERATED);
+        itemModelGenerator.register(ItemInit.SOLAR_BLOSSOM,Models.GENERATED);
         itemModelGenerator.register(ItemInit.SHADOW_LEGGINGS,Models.GENERATED);
         itemModelGenerator.register(ItemInit.SHADOW_CHESTPLATE,Models.GENERATED);
         itemModelGenerator.register(ItemInit.SHADOW_HELMET,Models.GENERATED);

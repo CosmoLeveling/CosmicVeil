@@ -33,7 +33,7 @@ public class CosmicVeilEnusLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(BlockInit.ShadowPortal,"Shadow Portal");
         translationBuilder.add(ItemInit.MarksmanVeil,"Marksman Veil");
         translationBuilder.add(ItemInit.ShadowShield,"Shadow Shield");
-        translationBuilder.add("itemGroup.cosmic_veil.cosmic_veil_group","Cosmic Veil");
+        translationBuilder.add("itemGroup.cosmic_veil.shadow_group","Shadow Realm");
         translationBuilder.add("cosmic_veil.container.crafting","Soul Crafter");
         translationBuilder.add(BlockInit.DarkShadowRock,"Dark Shadow Rock");
         translationBuilder.add(BlockInit.DarkShadowRockButton,"Dark Shadow Rock Button");

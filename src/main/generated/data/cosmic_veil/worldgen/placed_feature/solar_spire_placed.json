@@ -10,18 +10,18 @@
     },
     {
       "type": "minecraft:rarity_filter",
-      "chance": 100
+      "chance": 3
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
+      "heightmap": "WORLD_SURFACE_WG"
     },
     {
       "type": "minecraft:height_range",
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 90
+          "absolute": 120
         },
         "min_inclusive": {
           "absolute": 85

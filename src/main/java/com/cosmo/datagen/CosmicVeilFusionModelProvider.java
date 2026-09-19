@@ -37,5 +37,12 @@ public class CosmicVeilFusionModelProvider extends FusionModelProvider {
                 .build();
         var lightmodelInstance = ModelInstance.of(DefaultModelTypes.CONNECTING, lightmodelData);
         this.addModel(new Identifier(CosmicVeil.MOD_ID,"block/light_shadow_rock_light"), lightmodelInstance);
+        var solarmodelData = ConnectingModelDataBuilder.builder()
+                .parent(new Identifier("block/cube_all"))
+                .texture("all", new Identifier(CosmicVeil.MOD_ID,"block/solar_light"))
+                .connection(DefaultConnectionPredicates.isSameBlock())
+                .build();
+        var solarmodelInstance = ModelInstance.of(DefaultModelTypes.CONNECTING, solarmodelData);
+        this.addModel(new Identifier(CosmicVeil.MOD_ID,"block/solar_light"), solarmodelInstance);
     }
 }

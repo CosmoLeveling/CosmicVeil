@@ -8,7 +8,7 @@ public class SolarRealmEffects extends DimensionEffects {
         super(
             Float.NaN,   // clouds height (NaN = no clouds)
             false,       // alternateSkyColor
-            SkyType.NONE, // no vanilla sky renderer, let FabricSkyBoxes handle it
+            SkyType.NORMAL, // no vanilla sky renderer, let FabricSkyBoxes handle it
             false,       // brightenLighting
             true         // darkened block faces
         );

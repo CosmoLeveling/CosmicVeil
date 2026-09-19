@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "cosmic_veil:block/solar_vines_blossom_top_filled"
+  }
+}

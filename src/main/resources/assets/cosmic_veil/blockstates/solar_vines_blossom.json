@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "half=lower,test=false": {
+      "model": "cosmic_veil:block/solar_vines_blossom_bottom"
+    },
+    "half=upper,test=false": {
+      "model": "cosmic_veil:block/solar_vines_blossom_top"
+    },
+    "half=upper,test=true": {
+      "model": "cosmic_veil:block/solar_vines_blossom_top_filled"
+    },
+    "half=lower,test=true": {
+      "model": "cosmic_veil:block/solar_vines_blossom_bottom"
+    }
+  }
+}

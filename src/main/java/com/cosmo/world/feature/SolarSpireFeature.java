@@ -52,10 +52,10 @@ public class SolarSpireFeature extends Feature<DefaultFeatureConfig> {
         // === Step 4: Build emerald-shaped crystal top ===
         // (a diamond-like octahedron shape)
         BlockPos gemBase = topPos.up(3);
-        placeHollowCircle(level, BlockInit.LightSolarRock, gemBase.up(0), 8);
-        placeHollowCircle(level, BlockInit.LightSolarRock, gemBase.up(2), 9);
-        placeHollowCircle(level, BlockInit.LightSolarRock, gemBase.up(4), 8);
-        placeHollowCircle(level, BlockInit.LightSolarRock, gemBase.up(6), 7);
+        placeHollowCircle(level, BlockInit.SolarLight, gemBase.up(0), 8);
+        placeHollowCircle(level, BlockInit.SolarLight, gemBase.up(2), 9);
+        placeHollowCircle(level, BlockInit.SolarLight, gemBase.up(4), 8);
+        placeHollowCircle(level, BlockInit.SolarLight, gemBase.up(6), 7);
         return true;
     }
 

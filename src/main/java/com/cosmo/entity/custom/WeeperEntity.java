@@ -345,7 +345,7 @@ public class WeeperEntity extends PathAwareEntity {
         this.goalSelector.add(8, new LookAtEntityGoal(this, PlayerEntity.class, 100.0F));
         this.goalSelector.add(8, new LookAroundGoal(this));
         this.goalSelector.add(1, new RevengeGoal(this));
-        this.goalSelector.add(2, new WanderAroundFarGoal(this, 1.0f, 0.0f));
+        this.goalSelector.add(2, new WanderAroundFarGoal(this, 1.0f));
         this.goalSelector.add(0, new WeeperFollowOwnerGoal(this, 3, 10f, 2f, true));
         this.initCustomGoals();
     }

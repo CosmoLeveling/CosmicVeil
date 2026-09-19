@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ShiftedShader implements ShaderEffectRenderCallback, ClientTickEvents.EndTick{
     public static final ShiftedShader INSTANCE = new ShiftedShader();
     private int ticks = 0;
-    private static final ManagedShaderEffect SHIFTED_SHADER = ShaderEffectManager.getInstance()
+    public static final ManagedShaderEffect SHIFTED_SHADER = ShaderEffectManager.getInstance()
             .manage(new Identifier(CosmicVeil.MOD_ID, "shaders/post/shifted.json"),(managedShaderEffect -> {
         managedShaderEffect.setSamplerUniform("DepthSampler",((ReadableDepthFramebuffer)MinecraftClient.getInstance().getFramebuffer()).getStillDepthMap());
     }));

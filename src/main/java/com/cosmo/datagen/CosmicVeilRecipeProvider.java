@@ -34,6 +34,15 @@ public class CosmicVeilRecipeProvider extends FabricRecipeProvider {
                 .input('D', ItemInit.Ashenite)
                 .criterion(hasItem(Items.NETHERITE_INGOT),conditionsFromItem(Items.NETHERITE_INGOT))
                 .offerTo(consumer,new Identifier(getRecipeName(ItemInit.WeeperTotem)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, BlockInit.SolarAltar)
+                .pattern("mbm")
+                .pattern("bsb")
+                .pattern("mbm")
+                .input('m', Items.MAGMA_BLOCK)
+                .input('b', Items.BLAZE_POWDER)
+                .input('s', BlockInit.ShadowPortal)
+                .criterion(hasItem(BlockInit.ShadowPortal),conditionsFromItem(BlockInit.ShadowPortal))
+                .offerTo(consumer,new Identifier(getRecipeName(BlockInit.SolarAltar)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ItemInit.ShadowTrap,8)
                 .pattern("iDi")
                 .pattern("DWD")

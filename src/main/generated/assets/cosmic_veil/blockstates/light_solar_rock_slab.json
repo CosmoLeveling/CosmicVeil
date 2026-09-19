@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cosmic_veil:block/light_solar_rock_slab"
+    },
+    "type=double": {
+      "model": "cosmic_veil:block/light_solar_rock"
+    },
+    "type=top": {
+      "model": "cosmic_veil:block/light_solar_rock_slab_top"
+    }
+  }
+}

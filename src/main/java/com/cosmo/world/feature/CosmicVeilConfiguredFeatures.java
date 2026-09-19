@@ -8,10 +8,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.OreFeatureConfig;
+import net.minecraft.world.gen.feature.*;
 
 import java.util.List;
 
@@ -21,6 +18,7 @@ public class CosmicVeilConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?,?>> SOLAR_SPIRE_KEY = registerKey("solar_spire");
     public static final RegistryKey<ConfiguredFeature<?,?>> SHADOW_MONARCHS_TREASURE_KEY = registerKey("shadow_monarchs_treasure");
     public static final RegistryKey<ConfiguredFeature<?,?>> SHADOW_PORTAL_KEY = registerKey("shadow_portal");
+    public static final RegistryKey<ConfiguredFeature<?,?>> SOLAR_MONUMENT_KEY = registerKey("solar_monument");
     public static final RegistryKey<ConfiguredFeature<?,?>> SHADROCK_ORE_KEY = registerKey("shadrock_ore");
     public static final RegistryKey<ConfiguredFeature<?,?>> ECLIPSIUM_ORE_KEY = registerKey("eclipsium_ore");
     public static final RegistryKey<ConfiguredFeature<?,?>> ASHENITE_ORE_KEY = registerKey("ashenite_ore");
@@ -31,6 +29,7 @@ public class CosmicVeilConfiguredFeatures {
         register(context, SOLAR_SPIRE_KEY, CosmicVeil.SolarSpire,FeatureConfig.DEFAULT);
         register(context, SHADOW_MONARCHS_TREASURE_KEY, CosmicVeil.ShadowMonarchsTreasure,FeatureConfig.DEFAULT);
         register(context, SHADOW_PORTAL_KEY, CosmicVeil.ShadowPortal,FeatureConfig.DEFAULT);
+        register(context, SOLAR_MONUMENT_KEY, CosmicVeil.SolarMonument,new DefaultFeatureConfig());
 
         RuleTest DarkShadowRockReplaceable = new BlockMatchRuleTest(BlockInit.DarkShadowRock);
         RuleTest LightShadowRockReplaceable = new BlockMatchRuleTest(BlockInit.LightShadowRock);

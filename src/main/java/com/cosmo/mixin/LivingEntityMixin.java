@@ -2,6 +2,7 @@ package com.cosmo.mixin;
 
 import com.cosmo.CosmicVeilComponents;
 import com.cosmo.util.ShiftedComponent;
+import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -24,7 +25,6 @@ public abstract class LivingEntityMixin {
         if (!((Object) this instanceof LivingEntity livingEntity)) return;
         if (!ShiftedComponent.canSeePlayer(livingEntity,entity)) ci.cancel();
     }
-
     @Inject(method = "canTarget(Lnet/minecraft/entity/LivingEntity;)Z",at = @At("HEAD"),cancellable = true)
     public void canTarget(LivingEntity target, CallbackInfoReturnable<Boolean> cir) {
         if (target instanceof PlayerEntity player){

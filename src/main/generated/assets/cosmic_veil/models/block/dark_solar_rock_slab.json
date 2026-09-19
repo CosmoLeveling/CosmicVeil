@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "cosmic_veil:block/dark_solar_rock",
+    "side": "cosmic_veil:block/dark_solar_rock",
+    "top": "cosmic_veil:block/dark_solar_rock"
+  }
+}
