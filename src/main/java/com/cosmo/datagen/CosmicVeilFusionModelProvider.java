@@ -16,6 +16,8 @@ public class CosmicVeilFusionModelProvider extends FusionModelProvider {
 
     @Override
     protected void generate() {
+
+      // Generating Light Block Models for Fusion
         var modelData = ConnectingModelDataBuilder.builder()
                 .parent(new Identifier("block/cube_all"))
                 .texture("all", new Identifier(CosmicVeil.MOD_ID,"block/dark_shadow_rock_light"))
