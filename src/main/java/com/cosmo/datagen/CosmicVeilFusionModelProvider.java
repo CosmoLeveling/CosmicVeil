@@ -24,6 +24,7 @@ public class CosmicVeilFusionModelProvider extends FusionModelProvider {
                 .connection(DefaultConnectionPredicates.isSameBlock())
                 .build();
         var modelInstance = ModelInstance.of(DefaultModelTypes.CONNECTING, modelData);
+        //This is Funny
         this.addModel(new Identifier(CosmicVeil.MOD_ID,"block/dark_shadow_rock_light"), modelInstance);
         var redmodelData = ConnectingModelDataBuilder.builder()
                 .parent(new Identifier("block/cube_all"))
